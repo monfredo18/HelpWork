@@ -10,7 +10,7 @@ public class main {
         String nome = teclado.nextLine();
 
         System.out.println("Digite 1 para Usuário, 2 para Técnico e 3 para Admin: ");
-        String opção = teclado.nextLine();
+        String opcao = teclado.nextLine();
 
         System.out.println("Crie sua senha: ");
         String senha = teclado.nextLine();
