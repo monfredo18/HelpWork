@@ -1,4 +1,4 @@
-package src.chamado;
+package src.chamados;
 
 public class Usuario {
 
