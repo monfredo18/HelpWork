@@ -24,4 +24,8 @@ public class Usuario {
     public Perfil getPerfil() {
         return perfil;
     }
+
+    public boolean verificarSenha(String senha) {
+        return this.senhaHash.equals(senha);
+    }
 }
